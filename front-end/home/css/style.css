@@ -1,0 +1,51 @@
+body{
+	font-family: "Nunito"!important;
+	background-color: #ffc0cb66!important;
+}
+.navbar{
+	padding:0!important;
+}
+.bg-color{
+	background-color:rgb(245 128 227 / 49%)!important;
+}
+.navbar li{
+	padding:15px;
+}
+.navbar a{
+	padding:0 10px;
+	color:purple!important;
+	font-weight: 500;
+}
+.navbar a:hover{
+	color:white!important;
+	transition: 0.7s;
+}
+.image-slide{
+	width: 100%;
+}
+.logo{
+	width: 35px;
+}
+.desc-img{
+	width:100%;
+}
+.img-card{
+	height:20rem;
+}
+.body-heading{
+	color: rgb(255 23 23 / 64%);
+	animation-name:change;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes change{
+	0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    100% {color: green;}
+}
+.card:hover{
+	transform: scale(1.1);
+	transition: 1s;
+	z-index: 1;
+}
