@@ -49,3 +49,21 @@ body{
 	transition: 1s;
 	z-index: 1;
 }
+.login-title{
+	display: block;
+	width: 100%;
+	color:white;
+}
+.bg-login{
+	background-color: #ffc0cb98!important;
+}
+.btn-regsiter,.btn-login{
+	display:block;
+	width:100%;
+}
+/*.dropdown-menu-about{
+	left:65%!important;
+}
+.dropdown-menu-services{
+	left:75%!important;
+}*/
