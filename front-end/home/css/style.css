@@ -61,9 +61,21 @@ body{
 	display:block;
 	width:100%;
 }
-/*.dropdown-menu-about{
-	left:65%!important;
+.navbar .dropdown-menu{
+	background-color: pink;
 }
-.dropdown-menu-services{
-	left:75%!important;
-}*/
+.navbar .dropdown-menu.show{
+	transition: 4s;
+}
+.dropdown-menu .dropdown-item{
+	padding: 10px;
+}
+.dropdown-menu .dropdown-item:hover{
+	background-color: pink;
+}
+#loginModal a:hover ,#regsiterModal a:hover{
+	text-decoration: none;
+}
+.desc-img{
+	width:100%;
+}
